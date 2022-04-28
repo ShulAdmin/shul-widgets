@@ -63,5 +63,5 @@ The first step for all three of these strategies is to [publish to NPM](https://
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 We Support [Open Source Judaism](https://en.wikipedia.org/wiki/Open_Source_Judaism).
