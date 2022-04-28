@@ -1,6 +1,6 @@
 # shul-widgets
 
-A collection of various widgets that can be added to any website as a web-component or an iframe.
+A collection of free widgets that can be added to any website as a web-component or an iframe.
 
 
 
