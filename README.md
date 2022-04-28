@@ -7,9 +7,7 @@ A collection of free widgets that can be added to any website as a web-component
 
 ## Getting Started
 
-To start building, be on the latest lts node, clone, and run.
-
-and run:
+To start building, be on the latest lts node, clone the code, and run.
 
 ```bash
 npm ci
