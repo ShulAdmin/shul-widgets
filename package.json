@@ -22,14 +22,17 @@
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll",
+    "test:watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
   },
   "dependencies": {
     "@stencil/core": "^2.13.0"
   },
   "devDependencies": {
+    "@sinonjs/fake-timers": "^9.1.2",
+    "@stencil/sass": "^1.5.2",
     "@types/jest": "^27.0.3",
+    "@types/sinonjs__fake-timers": "^8.1.2",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
     "puppeteer": "^13.6.0"

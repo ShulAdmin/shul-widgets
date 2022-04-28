@@ -20,6 +20,8 @@ export namespace Components {
          */
         "middle": string;
     }
+    interface ShulWidgetZmanimTicker {
+    }
 }
 declare global {
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
@@ -28,8 +30,15 @@ declare global {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
+    interface HTMLShulWidgetZmanimTickerElement extends Components.ShulWidgetZmanimTicker, HTMLStencilElement {
+    }
+    var HTMLShulWidgetZmanimTickerElement: {
+        prototype: HTMLShulWidgetZmanimTickerElement;
+        new (): HTMLShulWidgetZmanimTickerElement;
+    };
     interface HTMLElementTagNameMap {
         "my-component": HTMLMyComponentElement;
+        "shul-widget-zmanim-ticker": HTMLShulWidgetZmanimTickerElement;
     }
 }
 declare namespace LocalJSX {
@@ -47,8 +56,11 @@ declare namespace LocalJSX {
          */
         "middle"?: string;
     }
+    interface ShulWidgetZmanimTicker {
+    }
     interface IntrinsicElements {
         "my-component": MyComponent;
+        "shul-widget-zmanim-ticker": ShulWidgetZmanimTicker;
     }
 }
 export { LocalJSX as JSX };
@@ -56,6 +68,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "shul-widget-zmanim-ticker": LocalJSX.ShulWidgetZmanimTicker & JSXBase.HTMLAttributes<HTMLShulWidgetZmanimTickerElement>;
         }
     }
 }
