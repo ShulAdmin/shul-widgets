@@ -9,20 +9,22 @@ A collection of free widgets that can be added to any website as a web-component
 
 To start building, be on the latest lts node, clone the code, and run.
 
-```bash
+(we use `npm ci` NOT `npm install` to ensure dependency tree locking)
+
+```
 npm ci
 npm start
 ```
 
 To build the component for production, run:
 
-```bash
+```
 npm run build
 ```
 
 To run the unit tests for the components, run:
 
-```bash
+```
 npm test
 ```
 
